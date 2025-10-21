@@ -35,10 +35,10 @@ export default function HomePage() {
       </h1>
 
       <Tabs defaultActiveKey="1" centered>
-        <Tabs.TabPane tab="Student List (Static Props)" key="1">
+        <Tabs.TabPane tab="Student List" key="1">
           <Students students={studentsData} />
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Recent Posts (Server-Side Props)" key="2">
+        <Tabs.TabPane tab="Recent Posts" key="2">
           <Posts posts={postsData} />
         </Tabs.TabPane>
       </Tabs>
